@@ -19,13 +19,15 @@ make
   ```
 
 - Julia Set:
+> Example Julia set:  
+> `c = 0.45 + 0.1428i` → `./fractol julia 0.45 0.1428`
   ```bash
   ./fractol julia 0.45 0.1428
   ```
 
 📌 For more on the fractals:
 - Mandelbrot Set: [Wikipedia](https://en.wikipedia.org/wiki/Mandelbrot_set)
-- Julia Set: [Wikipedia](https://en.wikipedia.org/wiki/Jul)
+- Julia Set: [Wikipedia](https://en.wikipedia.org/wiki/Julia_set)
 
 Guides:
 [Oceano Fractol](https://www.youtube.com/watch?v=ANLW1zYbLcs)
