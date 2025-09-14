@@ -2,8 +2,10 @@
 
 This project challenges you to render beautiful fractals using the **MiniLibX** graphics library (based on X11).
 
-![Screenshot](./images/Julia.png)
-![Screenshot](./images/Mandelbrot.png)
+<p>
+  <img src="./images/Julia.png" width="500" height="455"/>
+  <img src="./images/Mandelbrot.png" width="500" height="455" />
+</p>
 
 ## Minilibx Requirements:
    - MinilibX only support TrueColor visual type (8,15,16,24 or 32 bits depth)
