@@ -19,7 +19,7 @@ HEADER = fractol.h
 SRC = main.c color.c render.c math_utils.c str_utils.c init.c event_init.c
 OBJ = ${SRC:.c=.o}
 MINILIB = minilibx-linux
-CLONE_REPO = https://github.com/42paris/minilibx-linux.git
+CLONE_REPO = https://github.com/42paris/minilibx-linux.git 
 LIB = libmlx_Linux.a
 RUN_MAKE = ./minilibx-linux/${LIB} 
 

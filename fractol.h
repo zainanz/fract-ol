@@ -14,7 +14,7 @@
 
 # define FRACTOL_H
 # define ERROR_MSG \
-	"CMD:\n1. ./fractol <mandelbrot>\n2. ./fractol <julia> <real> <imaginary>."
+	"CMD:\n1. ./fractol <mandelbrot>\n2. ./fractol <julia> <real> <imaginary>.\n"
 # define WIDTH 800
 # define HEIGHT 800
 

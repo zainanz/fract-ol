@@ -31,13 +31,13 @@ void	set_fractol(t_fractol *fractol)
 void	fractol_init(t_fractol *fractol, char *argv[])
 {
 	set_fractol(fractol);
-	if (!valid_num(argv[2]) || !valid_num(argv[3]))
-	{
-		ft_putstr_fd(ERROR_MSG, STDERR_FILENO);
-		exit(EXIT_FAILURE);
-	}
 	if (!ft_strcmp(argv[1], "julia"))
 	{
+		if (!valid_num(argv[2]) || !valid_num(argv[3]))
+		{
+			ft_putstr_fd(ERROR_MSG, STDERR_FILENO);
+			exit(EXIT_FAILURE);
+		}
 		fractol->real = ft_extract_double(argv[2]);
 		fractol->i = ft_extract_double(argv[3]);
 		fractol->julia = 1;
